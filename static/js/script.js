@@ -12,9 +12,22 @@ function ageInDays() {
     var textAnswer = document.createTextNode(`You are ${age} days old as of today!`)
     h1.setAttribute('id', 'age');
     h1.appendChild(textAnswer);
-    document.getElementById('flexbox-result').appendChild(h1);
+    document.getElementById('flexbox-result-1').appendChild(h1);
 }
 
-function reset() {
+function reset_1() {
     document.getElementById('age').remove();
+}
+
+// Challenge 2 - Cat Generator
+
+function catGenerate() {
+    var img = document.createElement('img');
+    img.setAttribute('src', 'http://www.randomkittengenerator.com/cats/rotator.php');
+    document.getElementById('flexbox-result-2').appendChild(img);
+}
+
+function reset_2() {
+    console.log(document.getElementsByClassName('kitten'));
+    document.getElementById('flexbox-result-2').innerHTML = '';
 }
