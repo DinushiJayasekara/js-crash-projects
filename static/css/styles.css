@@ -1,4 +1,4 @@
-.container-1, .container-2 {
+.container-1, .container-2, .container-3 {
     border: 3px solid  rgb(165, 165, 165);
     border-radius: 20px;
     padding: 10px;
@@ -31,3 +31,5 @@
     margin: 10px 20px;
     padding: 1px;
 }
+
+
