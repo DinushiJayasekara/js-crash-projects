@@ -41,10 +41,12 @@
     padding: 10px;
 }
 
-.flexbox-rps-img {
+.flexbox-rps-img, #flexbox-result-3 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .flexbox-rps-img img {
